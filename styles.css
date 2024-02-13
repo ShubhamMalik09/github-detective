@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f8ff;
+    padding-top: 2.5rem;
+}
+
+.wrapper{
+    width: 48%;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.search{
+    display: flex;
+    width: 80%;
+}
+.search svg{
+    margin: 0 0.5rem;
+}
+.search-input{
+    all: unset;
+    width: 80%;
+}
+
+.btn{
+    padding: 0.9rem 1.7rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0079ff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #60abff;
+}
+
+.profile-container{
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: 3rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.joined{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.2rem;
+}
+.bio{
+    margin-top: 1rem;
+}
+
+.followers-container{
+    display: flex;
+    margin: 2.5rem 0;
+    justify-content: space-around;
+    background-color: #f6f8ff;
+    padding: 1rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+
+}
+.about p:first-of-type{
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+.about p:last-of-type{
+    font-size: 20px;
+    font-weight: 800;
+}
+.link-section{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-section1{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.link-section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mode{
+    display: flex;
+}
+
+a{
+    text-decoration: underline;
+}
