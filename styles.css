@@ -87,6 +87,7 @@
 .followers-container{
     display: flex;
     margin: 2.5rem 0;
+    width: 100%;
     justify-content: space-around;
     background-color: #f6f8ff;
     padding: 1rem;
